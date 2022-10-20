@@ -5,8 +5,11 @@
 `
 ./darknet classifier predict classify/classify.data classify/darknet19.cfg darknet19_46000.weights dog.jpg
 `
-** OUTPUT **
-`
+
+
+**OUTPUT**
+
+```
 GPU isn't used 
  OpenCV version: 3.2.0
 mini_batch = 1, batch = 1, time_steps = 1, train = 0 
@@ -49,4 +52,4 @@ top: Using default '1'
 224 224
 dog1.jpg: Predicted in 889.085000 milli-seconds.
 dog: 0.999985
-`
+```
